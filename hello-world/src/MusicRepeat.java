@@ -12,6 +12,6 @@ public class MusicRepeat {
             repeat = scanner.nextBoolean();
         }
 
-        System.out.println("Encerrando a música");
+        System.out.println("Encerrando a música.");
     }
 }
