@@ -7,13 +7,17 @@ public class Message {
         System.out.println("Digite um número de 1 a 10: ");
         int number = scanner.nextInt();
 
+        //String message;
         if ( number >=1 && number <= 5) {
-            System.out.println("Quem avisa amigo é!");
+            String message = "Quem avisa amigo é!";
         } else if (number >= 6 && number <= 10) {
-            System.out.println("Você é o que você come!");
+            String message = "Você é o que você come!";
         } else {
-            System.out.println("Informe uma opção válida.");
+            String message = "Informe uma opção válida.";
+            System.out.println(message);
         }
     }
+
+
 
 }
