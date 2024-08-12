@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StudentApp {
     public static void main(String[] args) throws Exception {
         int age = 18;
@@ -40,6 +42,10 @@ public class StudentApp {
         System.out.println(name.charAt(name.length() - 1));
 
         System.out.println(name.equals(lastName));
+
+        Scanner scanner = new Scanner(System.in);
+        media = scanner.nextDouble();
+        System.out.println(media);
 
     }
 }
