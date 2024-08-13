@@ -12,6 +12,9 @@ public class Method {
         }else {
         System.out.println("Reporvado");
         }
+
+        System.out.println(potenciacao(2, 2));
+        System.out.println(potenciacao(3, 2));
     }
 
     public static void snackTimeAlarm() {
@@ -24,4 +27,7 @@ public class Method {
         return media;
     }
 
+    public static double potenciacao(int base, int potencia) {
+        return Math.pow(base, potencia);
+    }
 }
