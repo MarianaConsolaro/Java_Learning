@@ -14,9 +14,12 @@ public class App {
         );
 
         user1.active = true;
-        System.out.println(user1.isActive());
-        System.out.println(user2.isActive());
-        System.out.println(User.getCharacterLimit());
+        //System.out.println(user1.isActive());
+        //System.out.println(user2.isActive());
+        //System.out.println(User.getCharacterLimit());
   
+        System.out.println(user1.username);
+        System.out.println(user2.username);
+        System.out.println(User.NUMBER_OF_CHARACTERS_USER);
     }
 }

@@ -3,6 +3,7 @@ public class User {
     public String password;
     public String email;
     public boolean active;
+    public static final int NUMBER_OF_CHARACTERS_USER = 10;
 
     public User() {
 
@@ -20,6 +21,6 @@ public class User {
     }
 
     public static int getCharacterLimit() {
-        return 10;
+        return NUMBER_OF_CHARACTERS_USER;
     }
 }
