@@ -1,16 +1,22 @@
 public class App {
 
     public static void main(String[] args) {
-        User user = new User(
+        User user1 = new User(
             "mconsolaro",
             "mari.consolaro",
-            "mariana@gmail.com.br"
-            
-            
+            "mariana@gmail.com.br"            
         );
-        System.out.println(user.email);
-        System.out.println(user.username);
-        System.out.println(user.password);
 
+        User user2 = new User(
+            "user2",
+            "user2",
+            "user2@gmail.com.br"
+        );
+
+        user1.active = true;
+        System.out.println(user1.isActive());
+        System.out.println(user2.isActive());
+        System.out.println(User.getCharacterLimit());
+  
     }
 }

@@ -18,4 +18,8 @@ public class User {
     public boolean isActive() {
         return active;
     }
+
+    public static int getCharacterLimit() {
+        return 10;
+    }
 }
